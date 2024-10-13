@@ -4,13 +4,13 @@
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>  // Include the ArduinoJson library
 
-const char* ssid1 = "mar's iPhone";       // First Wi-Fi network name
-const char* password1 = "marissa2";  // First Wi-Fi password
+const char* ssid1 = "YOUR WIFI NETWORK NAME";       // First Wi-Fi network name
+const char* password1 = "YOUR WIFI PASSWORD";  // First Wi-Fi password
 
-const char* ssid2 = "SpectrumSetup-FD";   // Second Wi-Fi network name
-const char* password2 = "priorerror976";  // Second Wi-Fi password
+const char* ssid2 = "";   // Second Wi-Fi network name - if needed
+const char* password2 = "";  // Second Wi-Fi password - if needed
 
-String apiKey = "F3VPYTFZ542GCTUO";     // ThingSpeak API Key
+String apiKey = "YOUR ThingSpeak API KEY";     // ThingSpeak API Key
 const char* server = "api.thingspeak.com";  // ThingSpeak server
 
 // Initialize the LCD with ESP8266 pins
